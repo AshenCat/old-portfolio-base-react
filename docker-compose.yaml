@@ -2,6 +2,7 @@ services:
     old-portfolio:
         container_name: old-portfolio
         image: kliffordagujar/old-portfolio
+        restart: always
         # ports:
         #     - '80:80'
         volumes:
